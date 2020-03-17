@@ -8,5 +8,5 @@ Das Projekt ist in Typescript geschrieben. Zum builden im Hauptverzeichnis ein `
 Dazu wird node.js benötigt
 
 ## Live Entwicklung
-- [vs code] (https://code.visualstudio.com/docs/typescript/typescript-compiling)
+- vs code https://code.visualstudio.com/docs/typescript/typescript-compiling
 - terminal `tsc --watch`

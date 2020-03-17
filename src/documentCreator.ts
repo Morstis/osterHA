@@ -37,7 +37,7 @@ export class DocumentCreator extends stringHelper {
 
     list.forEach(x => {
       const _card = document.createElement('div');
-      this.childTextAppender('h3', x.name, _card);
+      this.childTextAppender('h3', this.toTitleCase(x.name), _card);
       const _imgNode = document.createElement('img');
       const _linkNode = document.createElement('a');
       _linkNode.href = x.link;

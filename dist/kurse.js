@@ -32,12 +32,12 @@ const kurse = [
     {
         name: 'politik',
         img: 'https://c.wgr.de/i/artikel/283x/978-3-14-035975-7.webp',
-        link: ''
+        link: 'https://www.westermann.de/artikel/978-3-14-035975-7/Politik-im-Fokus-Unterrichtswerk-fuer-die-gymnasiale-Oberstufe-Politik-Gemeinschaftskunde-Schuelerband'
     },
     {
         name: 'geschichte',
-        img: '',
-        link: 'https://www.westermann.de/artikel/978-3-14-035975-7/Politik-im-Fokus-Unterrichtswerk-fuer-die-gymnasiale-Oberstufe-Politik-Gemeinschaftskunde-Schuelerband'
+        img: 'https://c.wgr.de/i/artikel/283x/WEB-507-36642.webp',
+        link: 'https://www.westermann.de/artikel/WEB-507-36642/Zeit-fuer-Geschichte-Ausgabe-fuer-die-Einfuehrungsphase-in-Niedersachsen-BiBox-Digitale-Unterrichtsmaterialien-11'
     },
     {
         name: 'darstellendes spiel',
@@ -52,4 +52,3 @@ const kurse = [
     }
 ];
 export { kurse };
-//# sourceMappingURL=kurse.js.map

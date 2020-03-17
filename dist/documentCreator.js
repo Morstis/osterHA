@@ -26,7 +26,7 @@ export class DocumentCreator extends stringHelper {
             : document.body.appendChild(document.createElement('ul'));
         list.forEach(x => {
             const _card = document.createElement('div');
-            this.childTextAppender('h3', x.name, _card);
+            this.childTextAppender('h3', this.toTitleCase(x.name), _card);
             const _imgNode = document.createElement('img');
             const _linkNode = document.createElement('a');
             _linkNode.href = x.link;
@@ -37,4 +37,3 @@ export class DocumentCreator extends stringHelper {
         });
     }
 }
-//# sourceMappingURL=documentCreator.js.map
